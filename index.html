@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>ShyftLabs</title>
+</head>
+
+<body>
+    <div class="herosection">
+        <h1 id="heading">Where Media Excellence <br />
+            Meets Data Innovation</h1>
+        <p id="p1">The only privacy first and AI powered ad platform for retailers,<br /> brands, and advertisers</p>
+        <button id="topbtn">Try Carter</button>
+    </div>
+
+    <div class="section2">
+        <div class="secback">
+            <div class="dashboard">
+                <div class="container">
+                    <aside class="sidebar">
+                        <div class="profile">
+                            <div class="profileDetails">
+                                <p>R</p>
+                                <h2>Ruth Price<br> <span>Publisher</span></h2>
+                            </div>
+                        </div>
+                        <nav class="menu">
+                            <input type="text" placeholder="Search">
+                            <button><i class="fa-regular fa-bell"></i>Notification</button>
+                            <button>Add New Campaign</button>
+                            <hr>
+                            <div class="dropdown">
+                                <button class="dropdown-btn"><i class="fa-solid fa-plus"></i>Ad Campaign</button>
+                                <div class="dropdown-content">
+                                    <a href="#"><i class="fa-solid fa-cube"></i>Inventory</a>
+                                    <a href="#">Advertisers</a>
+                                    <a href="#"><i class="fa-regular fa-paper-plane"></i>Audiences</a>
+                                    <a href="#"><i class="fa-solid fa-file-lines"></i>Reporting</a>
+                                    <a href="#"><i class="fa-light fa-user-group"></i>Users</a>
+                                </div>
+                            </div>
+                            <button><i class="fa-thin fa-gear"></i>Account Settings</button>
+                        </nav>
+                    </aside>
+                    <main class="main-content">
+                        <section class="timeline">
+                            <div class="title">RMN Dashboard</div>
+                            <div class="btn-group-lg">
+                                <button type="button" class="btn">Last 7 days</button>
+                                <button type="button" class="btn">Last 30 days</button>
+                            </div>
+                        </section>
+                        <div class="network">
+                            <div class="topnet">
+                                <div class="netTab">Network Performance</div>
+                                <a href="#" class="netFilter">Filter by Advertiser</a>
+                            </div>
+                            <section class="network-performance">
+                                <div class="performance-item">Ad Revenue <br />$5,000<br /></div>
+                                <div class="performance-item">Overall Ad Spent<br /> $2,000</div>
+                                <div class="performance-item">Impressions <br />15,000</div>
+                                <div class="performance-item">Clicks<br /> 3,000</div>
+                                <div class="performance-item">Click Through Rate<br /> 20%</div>
+                            </section>
+                            <section class="line-chart-section">
+                                <canvas id="smoothedLineChart"></canvas>
+                            </section>
+                        </div>
+                        <section class="lower-section">
+                            <div class="doughnut-chart">
+                                <canvas id="doughnutChart"></canvas>
+                            </div>
+                            <div class="top-products">
+                                <div class="tilesProd">
+                                    <h3>Top Products</h3>
+                                    <a href="#" >Filter by Advertiser</a>
+
+                                </div>
+                                <div class="table-wrapper">
+                                    <table class="product-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Product Name</th>
+                                                <th>Sales</th>
+                                                <th>Margin</th>
+                                                <th>Revenue</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Product 1</td>
+                                                <td>150</td>
+                                                <td>30%</td>
+                                                <td>$4500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Product 2</td>
+                                                <td>120</td>
+                                                <td>25%</td>
+                                                <td>$3000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Product 3</td>
+                                                <td>200</td>
+                                                <td>20%</td>
+                                                <td>$4000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Product 4</td>
+                                                <td>180</td>
+                                                <td>35%</td>
+                                                <td>$6300</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Product 5</td>
+                                                <td>220</td>
+                                                <td>40%</td>
+                                                <td>$8800</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </section>
+                    </main>
+                </div>
+            </div>
+            <div class="text">Carter is designed to <span>Connect</span> retailers, brands,<br /> and advertisers,
+                <span>Monetize</span> the ad ecosystem for
+                <br /> all, <span>Scale</span> through
+                ML-powered optimizations <br />and insights.
+            </div>
+        </div>
+    </div>
+    <div class="section3">
+        <div class="top-sec">
+            <div class="title1">Accelerate growth with our solutions suite.</div>
+            <div class="paragraph">
+                <p>Maximize impact and ROI utilizing our integrated suite of Monetization, Marketing, and Advertising
+                    solutions
+                </p>
+            </div>
+        </div>
+
+        <div class="sub-section">
+            <div class="card-wrapper">
+                <div class="small-title">Monetizing Solutions</div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="logo">
+                            <img src="./assets/card1.svg " alt="grid1 " srcset="">
+                        </div>
+                        <div class="cardTitle">Personalization</div>
+                        <div class="cardContent">Deliver personalized ads using first-party and third-party data.</div>
+                    </div>
+                    <div class="card">
+                        <div class="logo">
+                            <img src="./assets/card2.svg " alt="grid2 " srcset="">
+                        </div>
+                        <div class="cardTitle">Omni-model</div>
+                        <div class="cardContent">Target customers with media on-site, in-app, offsite or in-stores</div>
+                    </div>
+                    <div class="card">
+                        <div class="logo">
+                            <img src="./assets/card3.svg " alt="grid3 " srcset="">
+                        </div>
+                        <div class="cardTitle">Optimization</div>
+                        <div class="cardContent">Optimize across consumers, advertisers and platform using ML models
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="logo">
+                            <img src="./assets/card1.svg " alt="grid1 " srcset="">
+                        </div>
+                        <div class="cardTitle">Campaign Management</div>
+                        <div class="cardContent">Efficiently plan, execute, and monitor your marketing campaigns</div>
+                    </div>
+                    <div class="card">
+                        <div class="logo">
+                            <img src="./assets/card2.svg " alt="grid2 " srcset="">
+                        </div>
+                        <div class="cardTitle">Marketing Planning</div>
+                        <div class="cardContent">Strategically map out your marketing efforts and budgets for maximum
+                            impact and ROI</div>
+                    </div>
+                    <div class="card">
+                        <div class="logo">
+                            <img src="./assets/card3.svg " alt="grid3 " srcset="">
+                        </div>
+                        <div class="cardTitle">Media Mix Modelling</div>
+                        <div class="cardContent">Optimize your advertising spend across channels to achieve the best
+                            possible returns</div>
+                    </div>
+                </div>
+            </div>
+            <div class="arrows">
+                <button id="prev" class="arrow">
+                    < </button>
+                        <button id="next" class="arrow">
+                            > </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section4">
+        <div class="top-section">
+            <div class="title1">Engineered for a seamless experience</div>
+            <div class="paragraph1">
+                <p>Unlock growth and efficiency with a technology stack that streamlines operations from campaign
+                    inception to customer
+                    engagement, fostering a unified journey across digital and physical realms.</p>
+            </div>
+        </div>
+        <div class="bottom-section">
+            <div class="left-content">
+                <div class="small-title1">Campaign Management &rarr;<br> </div>
+
+                <div class="content">
+                    Beskap öning i nesos i beng även om kroräd. Minera sest. Vavis vartad bessa i hårtad. Monojuk
+                    stenoskade bekeras dosk.
+                    Ugt geoktiga ösa inklusive dilavis ontogam.
+                </div>
+                <div class="options">
+                    <div class="option">Reporting &rarr;</div>
+                    <hr />
+                    <div class="option">Payment/Billing &rarr;</div>
+                    <hr />
+                    <div class="option">Creative Services &rarr;</div>
+                    <hr />
+                    <div class="option">Audience Creation &rarr;</div>
+                    <hr />
+                    <div class="option">End to End Platform &rarr;</div>
+                </div>
+            </div>
+            <div class="right-content">
+                <div class="outer-frame">
+                    <div class="inner-frame">
+                        <!-- Nested frame content -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section5">
+        <div class="top-sec">
+            <div class="title1">Designed for versatility, agility and security</div>
+            <div class="paragraph">
+                <p>Modern design principles ensure CarterOneTM remains at the vanguard of advertising technology,
+                    empowering businesses to
+                    exceed their dynamic marketing objectives
+                </p>
+            </div>
+        </div>
+        <section class="section">
+            <div class="left-part">
+                <div class="card large-card">
+                    <div class="cardTitle">Privacy first</div>
+                    <div class="cardContent">Enable deep, direct relationships while maintaining transparency and trust
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <div class="cardTitle">ML and Generative AI ready</div>
+                        <div class="cardContent">Pre-built capabilities to bring incremental efficiencies and
+                            productivity</div>
+                    </div>
+                    <div class="card">
+                        <div class="cardTitle">Deployed in Client Cloud</div>
+                        <div class="cardContent">Choice to deploy within your own firewall, ensuring complete ownership
+                            and control</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <div class="cardTitle">Tailor made
+                            for Omni</div>
+                        <div class="cardContent">Built for impact in an omni-first world incorporating class platform
+                            integrations</div>
+                    </div>
+                    <div class="card">
+                        <div class="cardTitle">Modular and Composable</div>
+                        <div class="cardContent">Each component can be independently integrated, allowing for tailored
+                            solutions</div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-part">
+                <img src="./assets/bottom.svg" alt="Right Image" class="responsive-image">
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
